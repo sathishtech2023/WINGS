@@ -1,0 +1,4415 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+html{
+
+    scroll-behavior:auto;
+}
+.navbar1{
+
+    width: 99.9%;
+    height: 65px;
+    background-color:white;
+    display:flex;
+    flex-direction:row ;
+    position: fixed;
+    z-index: 10;
+    
+}
+.icon-box{
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 15px;
+}
+.icon-home{
+
+    width: 63px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+}
+.icon-title{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    left: 75px;
+    top: 15px;
+}
+.search-bar{
+
+    width: 780px;
+    height: 40px;
+    border: 1px solid rgb(113, 112, 112);
+    position: relative;
+    left: 50px;
+    top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.text-box{
+
+    width: 590px;
+    height: 30px;
+    position: relative;
+    left: 30px;
+    top: 2px;
+    border: none;
+    
+}
+.search-icon{
+
+    font-size:25px;
+    color: rgb(105, 104, 104);
+    /* border: 1px solid red; */
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.img-search-box{
+    width: 135px;
+    border: 1px solid rgb(103, 101, 101);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 29px;
+    background-color: #faf6f2;
+
+   
+}
+.image-search{
+
+    
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 8px;
+    top: 3px;
+    display: none;
+
+
+}
+.label-image{
+
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 7px;
+    left: 10px;
+    font-size: 14px;
+    /* border: 1px solid red; */
+    color: rgb(106, 104, 104);
+   
+}
+.icon-img{
+
+    /* border: 1px solid red; */
+    position: relative;
+    left: 5px;
+    top: 5px;
+    font-size: 23px;
+    color: rgb(106, 104, 104);
+
+}
+.function-icon-box-0{
+    width: 150px;
+    height: 35px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    left: 80px;
+    top: 20px;
+    /* border: 1px solid red; */
+}
+
+.fb-icon{
+
+    font-size: 20px;
+}
+.login-btn{
+
+    width: 70px;
+    height: 30px;
+    background-color: #683b2b;
+    color: white;
+    border: none;
+    box-shadow: 0px 5px 5px 0px #d3bca6;
+    position: relative;
+    left: 90px;
+    top: 15px;
+    border-radius: 7px;
+}
+.login-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.navbar2{
+
+    width: 99.9%;
+    height: 40px;
+    box-shadow: 0px 0px 3px 0px rgb(137, 136, 136);
+    background-color:#683b2b;
+    position: fixed;
+    top: 65px;
+    z-index: 10;
+
+}
+.navbar2 ul{
+
+   
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 7px;
+
+
+}
+.navbar2 li{
+
+    list-style: none;
+    /* border: 1px solid red; */
+    width: 130px;
+}
+.navbar2 a{
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    /* border: 1px solid red; */
+}
+
+.openslide5{
+
+    /* border: 1px solid red; */
+    position: relative;
+    left: 20px;
+}
+.openslide-blogs{
+
+     /* border: 1px solid red; */
+     position: relative;
+     left: 24px;
+}
+
+.landing-page{
+
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 750px;
+}
+
+.bootstrap-carousel{
+    width: 94%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40px;
+    top: 150px;
+    /* border: 1px solid red; */
+   
+}
+
+.slider{
+
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-blend-mode:darken ;
+    background-color: rgba(0, 0,0,.4);
+}
+
+.image-sd-1{
+
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-image: url(assets/pexels-pavel-danilyuk-6461201.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+    background-color: rgba(0, 0,0,.4);
+    background-position-y:70% ;
+    
+}
+.image-sd-2{
+
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-image: url(assets/pexels-pavel-danilyuk-6461065.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+    background-color: rgba(0, 0,0,.4);
+    background-position-y:50% ;
+}
+.image-sd-3{
+
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-image: url(assets/pexels-pavel-danilyuk-6461096.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+    background-color: rgba(0, 0,0,.4);
+    background-position-y:70% ;
+}
+.image-sd-4{
+
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-image: url(assets/pexels-pavel-danilyuk-6461116.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+    background-color: rgba(0, 0,0,.4);
+    background-position-y:70% ;
+}
+.image-sd-5{
+
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-image: url(assets/pexels-pavel-danilyuk-6461062.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+    background-color: rgba(0, 0,0,.4);
+    background-position-y:50% ;
+}
+.image-sd-6{
+
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-image: url(assets/pexels-pavel-danilyuk-6461319.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+    background-color: rgba(0, 0,0,.4);
+    background-position-y:40% ;
+}
+
+.home-title-slide-1{
+
+    width: 480px;
+    height: 170px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 130px;
+    left: 50px;
+    color: white;
+
+}
+.home-title-slide-1 h1{
+
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: white;
+
+}
+.home-title-slide-1 h3{
+
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+.home-2{
+
+    width: 500px;
+    height: 170px;
+    position: relative;
+    top: 70px;
+    left: 55px;
+    /* border: 1px solid greenyellow; */
+}
+
+.home-2 h1{
+
+    font-size: 46px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    /* border: 1px solid rgb(50, 44, 221); */
+    width: 460px;
+    height: 130px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+
+}
+.home-2 h3{
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 6px;
+    top: -10px;
+    /* border: 1px solid red; */
+    width: 470px;
+    color: white;
+
+}
+
+.home-3{
+
+    width: 560px;
+    height: 160px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* border: 1px solid greenyellow; */
+}
+.home-3 h1{
+
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    /* border: 1px solid rgb(59, 23, 180); */
+    width: 560px;
+    height: 110px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.home-3 h3{
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 0px;
+    top: 5px;
+    /* border: 1px solid red; */
+    color: white;
+
+}
+.home-4{
+
+    width: 590px;
+    height: 180px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* border: 1px solid greenyellow; */
+}
+.home-4 h1{
+
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    /* border: 1px solid rgb(79, 22, 202); */
+    width: 560px;
+    height: 120px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+.home-4 h3{
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 10px;
+    top:0px;
+    /* border: 1px solid rgb(43, 61, 226); */
+    width: 350px;
+    color: white;
+
+}
+.home-5{
+
+    width: 590px;
+    height: 180px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* border: 1px solid greenyellow; */
+}
+.home-5 h1{
+
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    /* border: 1px solid red; */
+    width: 560px;
+    height: 110px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+
+}
+
+.home-5 h3{
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    /* border: 1px solid red; */
+    width: 400px;
+    color: white;
+
+}
+.home-6{
+
+    width: 580px;
+    height: 100px;
+    position: relative;
+    top: 330px;
+    left: 500px;
+    /* border: 1px solid greenyellow; */
+}
+.home-6 h1{
+
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    /* border: 1px solid red; */
+    width: 560px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+
+}
+.home-6 h3{
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 0px;
+    /* border: 1px solid goldenrod; */
+    width: 400px;
+    color: white;
+
+}
+
+
+
+
+.mobile-nav{
+
+    display: none;
+}
+#mopenicon{
+
+    display: none;
+}
+#mcloseicon{
+    display: none;
+
+}
+@media(max-width :600px){
+
+    body{
+
+        width: 600px;
+        height: auto;
+    }
+
+
+    .navbar1{
+
+        width:600px;
+        height: 170px;
+        border: 1px solid rgb(136, 135, 135);
+        background-color: white;
+        display:flex;
+        flex-direction:column ;
+        /* border: 1px solid red; */
+    }
+    .icon-box{
+        width: 220px;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 10px;
+        /* border: 1px solid rgb(68, 49, 152); */
+    }
+    .icon-home{
+    
+        width: 63px;
+        height: 63px;
+        position: relative;
+        left: 10px;
+        border-radius: 50%;
+        /* border: 1px solid red; */
+
+    }
+    .icon-title{
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        left: 20px;
+        top: 10px;
+        /* border: 1px solid red; */
+
+    }
+    .search-bar{
+    
+        width: 560px;
+        height: 60px;
+        border: 1px solid rgb(70, 69, 69);
+        position: relative;
+        left:15px;
+        top: 10px;
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid rebeccapurple; */
+    }
+    .text-box{
+    
+        width: 380px;
+        height: 43px;
+        position: relative;
+        left: 20px;
+        top: 7px;
+        /* border: 1px solid red; */
+    }
+    .search-icon{
+    
+        font-size:33px;
+        color: rgb(105, 104, 104);
+        /* border: 1px solid rgb(205, 134, 134); */
+        position: relative;
+        top: 9px;
+        left: 10px;
+       
+    }
+    .img-search-box{
+        width: 125px;
+        border: 1px solid rgb(103, 101, 101);
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 20px;
+        /* border: 1px solid red; */
+        
+    }
+    .image-search{
+    
+        
+        width: 70px;
+        height: 30px;
+        position: relative;
+        left: 15px;
+        top: 9px;
+        /* border: 1px solid red; */
+       
+    }
+    .icon-img{
+/*     
+        border: 1px solid red; */
+        position: relative;
+        left: 5px;
+        top: 12px;
+        font-size: 25px;
+    
+    }
+    .label-image{
+
+        width: 90px;
+        height: 20px;
+        position: relative;
+        top: 14px;
+        left: 10px;
+        font-size: 14px;
+        /* border: 1px solid red; */
+        color: rgb(106, 104, 104);
+       
+    }
+    .function-icon-box-0{
+       
+        display: none;
+    }
+    .fb-icon{
+    
+        font-size: 20px;
+    }
+    .login-btn{
+
+        display: none;
+    }
+    .navbar2{
+    
+        width: 600px;
+        height: 40px;
+        box-shadow: 0px 0px 3px 0px rgb(137, 136, 136);
+        background-color:#683b2b;
+        /* border: 1px solid red; */
+        position: fixed;
+        top: 170px;
+        z-index: 10;
+
+    
+    }
+    .navbar2 ul{
+    
+        /* border: 1px solid red; */
+        display: none;
+    }
+    .landing-page{
+        width: 600px;
+        height: 800px;
+        /* border: 1px solid red; */
+    }
+    .bootstrap-carousel{
+        width: 600px;
+        height: 360px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 0px;
+        top: 205px;
+        
+    }
+    /* ......................title-in-slider................. */
+    .image-sd-1{
+
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid red; */
+        background-image: url(assets/pexels-pavel-danilyuk-6461201.jpg);
+        background-size: cover;
+        background-blend-mode:darken ;
+        background-color: rgba(0, 0,0,.4);
+        background-position-y:70% ;
+        
+    }
+    .image-sd-2{
+    
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid red; */
+        background-image: url(assets/pexels-pavel-danilyuk-6461065.jpg);
+        background-size: cover;
+        background-blend-mode:darken ;
+        background-color: rgba(0, 0,0,.4);
+        background-position-y:0% ;
+    }
+    .image-sd-3{
+    
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid red; */
+        background-image: url(assets/pexels-pavel-danilyuk-6461096.jpg);
+        background-size: cover;
+        background-blend-mode:darken ;
+        background-color: rgba(0, 0,0,.4);
+        background-position-y:70% ;
+    }
+    .image-sd-4{
+    
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid red; */
+        background-image: url(assets/pexels-pavel-danilyuk-6461116.jpg);
+        background-size: cover;
+        background-blend-mode:darken ;
+        background-color: rgba(0, 0,0,.4);
+        background-position-y:70% ;
+    }
+    .image-sd-5{
+    
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid red; */
+        background-image: url(assets/pexels-pavel-danilyuk-6461062.jpg);
+        background-size: cover;
+        background-blend-mode:darken ;
+        background-color: rgba(0, 0,0,.4);
+        background-position-y:50% ;
+    }
+    .image-sd-6{
+    
+        width: 100%;
+        height: 600px;
+        /* border: 1px solid red; */
+        background-image: url(assets/pexels-pavel-danilyuk-6461319.jpg);
+        background-size: cover;
+        background-blend-mode:darken ;
+        background-color: rgba(0, 0,0,.4);
+        background-position-y:40% ;
+    }
+    
+    .home-title-slide-1{
+    
+        width: 480px;
+        height: 170px;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 390px;
+        left: 50px;
+        color: white;
+    
+    }
+    .home-title-slide-1 h1{
+    
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        color: white;
+    
+    }
+    .home-title-slide-1 h3{
+    
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    .home-2{
+
+        width: 500px;
+        height: 170px;
+        position: relative;
+        top: 360px;
+        left: 55px;
+        /* border: 1px solid greenyellow; */
+    }
+    
+    .home-2 h1{
+    
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        /* border: 1px solid rgb(50, 44, 221); */
+        width: 460px;
+        height: 100px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    
+    
+    }
+    .home-2 h3{
+    
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        left: 6px;
+        top: 0px;
+        /* border: 1px solid red; */
+        width: 470px;
+        color: white;
+    
+    }
+    
+    .home-3{
+    
+        width: 560px;
+        height: 150px;
+        position: relative;
+        top: 370px;
+        left: 20px;
+        /* border: 1px solid greenyellow; */
+    }
+    .home-3 h1{
+    
+        font-size: 42px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        /* border: 1px solid rgb(59, 23, 180); */
+        width: 560px;
+        height: 100px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    
+    }
+    .home-3 h3{
+    
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        /* border: 1px solid red; */
+        color: white;
+    
+    }
+    .home-4{
+    
+        width: 540px;
+        height: 180px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        /* border: 1px solid greenyellow; */
+    }
+    .home-4 h1{
+    
+        font-size: 42px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        /* border: 1px solid rgb(79, 22, 202); */
+        width: 500px;
+        height: 120px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    
+    }
+    .home-4 h3{
+    
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        left: 10px;
+        top:0px;
+        /* border: 1px solid rgb(43, 61, 226); */
+        width: 350px;
+        color: white;
+    
+    }
+    .home-5{
+    
+        width: 520px;
+        height: 180px;
+        position: relative;
+        top: 50px;
+        left: 20px;
+        /* border: 1px solid greenyellow; */
+    }
+    .home-5 h1{
+    
+        font-size: 45px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        /* border: 1px solid red; */
+        width: 500px;
+        height: 110px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    
+    }
+    
+    .home-5 h3{
+    
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        /* border: 1px solid red; */
+        width: 400px;
+        color: white;
+    
+    }
+    .home-6{
+    
+        width: 530px;
+        height: 160px;
+        position: relative;
+        top: 380px;
+        left: 30px;
+        /* border: 1px solid greenyellow; */
+    }
+    .home-6 h1{
+    
+        font-size: 45px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        color: white;
+        /* border: 1px solid red; */
+        width: 500px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        left: 0px;
+    
+    }
+    .home-6 h3{
+    
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 10px;
+        left: 0px;
+        /* border: 1px solid goldenrod; */
+        width: 400px;
+        color: white;
+    
+    }
+    
+    
+    .slider{
+    
+        width: 100%;
+        height: 470px;
+    }
+    .mobile-nav{
+
+        display: flex;
+    }
+    .sidebar{
+        background-color: white;
+        width: 500px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+        transition: 0.7s ease;
+        z-index: 30;
+        left: -500px;
+        /* border: 1px solid red; */
+    }
+    .active{
+
+        left:0;
+
+    }
+
+    #mopenicon{
+        display:flex;
+        font-size: 40px;
+        position: absolute;
+        left: 490px;
+        top: 20px;
+    }
+    #mclose{
+        display: flex;
+        font-size: 40px;
+        position: absolute;
+        right: 0;
+        margin: 20px;
+    }
+    .sidebar h2{
+        width: 280px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Jost', sans-serif;
+    }
+    .log-box{
+        width: 280px;
+        height: 45px;
+        position: relative;
+        top: 25px;
+        left: 15px;
+    }
+    .login-mobile{
+
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: rgb(138, 135, 135);
+
+    }
+    .register-mobile{
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: rgb(138, 135, 135);
+        position: relative;
+        left: 30px;
+        
+    }
+    .indian-price-box{
+        width: 470px;
+        height: 50px;
+        position: relative;
+        left: 15px;
+        top: 30px;
+        border: 1px solid rgb(68, 68, 68)
+    }
+    #input-price{
+
+        width: 360px;
+        height:38px ;
+        position: absolute;
+        top: 4px;
+        left: 15px;
+        font-size: 23px;
+        color: black;
+        border: none;
+
+    }
+    .icon-price{
+
+        font-size: 35px;
+        position: absolute;
+        left: 400px;
+        top: 5px;
+    }
+    .menu-title{
+        position: relative;
+        top: 80px;
+        left: 15px;
+        font-size: 29px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .links{
+
+        width: 495px;
+        height: 100vh;
+        position: absolute;
+        top: 270px;
+        display: grid;
+        grid-template-rows: repeat(1fr,6);
+    }
+
+    .links li {
+
+        list-style: none;
+    }
+    .links ul{
+        width: 500px;
+        display: grid;
+        grid-template-rows: repeat(9,1fr);
+    }
+    .link{
+
+        text-decoration: none;
+        color: black;
+        font-size: 27px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        left: -30px;
+        top: 50px;
+        width: 490px;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgb(128, 126, 126);
+
+    }
+    .link-menu{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+        font-family: 'Poppins', sans-serif;
+        /* border: 1px solid red; */
+        width: 250px;
+    }
+    #icon-link{
+
+        position: absolute;
+        right: 0;
+        padding-top: 20px;
+        padding-right: 10px;
+        font-size: 27px;
+
+    }
+
+}
+/* ........................custom-design-products............ */
+  
+.title-custom-product{
+
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 70px;
+    /* border: 1px solid red; */
+    /* background-color: #faf6f2; */
+}
+.title-custom-product h1{
+
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    left: 40px;
+    top: 30px;
+   
+    width: 350px;
+}
+.box-collection{
+    width: 400px;
+    height: 60px;
+    position: relative;
+    left: 36px;
+    top: 30px;
+   
+    display: flex;
+    flex-direction:row;
+
+}
+.btn-new a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    
+}
+.btn-new{
+   
+    text-align: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(182, 179, 179);
+    background-color:white;
+    
+
+
+}
+
+.btn-women{
+    text-align: center;
+    align-items: center;
+    width: 75px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 17px;
+    border-radius: 15px;
+    border: 1px solid rgb(182, 179, 179);
+    background-color:white;
+    
+}
+.btn-women a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+ 
+}
+.btn-men{
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 34px;
+    border-radius: 15px;
+    border: 1px solid rgb(182, 179, 179);
+    background-color:white;
+
+}
+.btn-men a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+ 
+}
+.btn-best-sale{
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    border-radius: 15px;
+    border: 1px solid rgb(182, 179, 179);
+    background-color:white;
+}
+.btn-best-sale a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+ 
+}
+/* ....................product...slider................ */
+
+.custom-product{
+    /* border: 1px solid red; */
+    position: relative;
+    top: 100px;
+    /* background-color: #faf6f2; */
+}
+.product-container {
+    display: flex;
+    width: 200%;
+    animation: productShow 20s linear infinite;
+    
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    
+  }
+  
+  .custom-product {
+    width: 100%;
+    overflow: hidden;
+    /* background-color: #faf6f2; */
+  }
+  
+  .img-box {
+    width: 100%;
+  }
+  
+  .products-count {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  li {
+    width: 100%;
+   }
+  
+  /* li:nth-child(2) {
+    
+  }
+  
+  li:nth-child(3) {
+   
+  }  */
+  
+  .paused {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+  @keyframes productShow {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .product-img{
+
+    width: 300px;
+    height: 350px;
+  }
+  /* ..............media query for mobile.................. */
+
+  @media(max-width :600px){
+
+    .title-custom-product{
+
+        width: 600px;
+        height: 180px;
+        position: relative;
+        top: 70px;
+        /* border: 1px solid red; */
+    }
+    .title-custom-product h1{
+    
+        font-size: 35px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        left: 40px;
+        top: 30px;
+       
+        width: 350px;
+    }
+    .box-collection{
+        width: 400px;
+        height: 60px;
+        position: relative;
+        left: 36px;
+        top: 30px;
+        display: flex;
+        flex-direction:row;
+        /* border: 1px solid red; */
+    
+    }
+    .btn-new a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+        
+    }
+    .btn-new{
+       
+        text-align: center;
+        align-items: center;
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 15px;
+        border-radius: 15px;
+        border: 1px solid rgb(182, 179, 179);
+        background-color: white;
+    }
+    
+    .btn-women{
+        text-align: center;
+        align-items: center;
+        width: 75px;
+        height: 30px;
+        position: relative;
+        top: 15px;
+        left: 17px;
+        border-radius: 15px;
+        border: 1px solid rgb(182, 179, 179);
+        background-color: white;
+        
+    }
+    .btn-women a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+     
+    }
+    .btn-men{
+        text-align: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        position: relative;
+        top: 15px;
+        left: 34px;
+        border-radius: 15px;
+        border: 1px solid rgb(182, 179, 179);
+        background-color: white;
+    
+    }
+    .btn-men a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+     
+    }
+    .btn-best-sale{
+        text-align: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        position: relative;
+        top: 15px;
+        left: 50px;
+        border-radius: 15px;
+        border: 1px solid rgb(182, 179, 179);
+        background-color: white;
+    }
+    .btn-best-sale a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+     
+    }
+    /* ....................product...slider................ */
+    
+    .custom-product{
+        position: relative;
+        top: 110px;
+        left: 0px;
+        width: 600px;
+        /* border: 1px solid red; */
+    }
+    .product-container {
+        display: flex;
+        width: 200%;
+        animation: productShow 20s linear infinite;
+        /* border: 1px solid red; */
+      }
+      
+      img {
+        display: block;
+        width: 100%;
+        /* border: 1px solid rgb(192, 47, 184); */
+      }
+      
+      .custom-product {
+        width: 600px;
+        overflow: hidden;
+      }
+      
+      .img-box {
+        width: 2340px;
+        /* border: 1px solid red; */
+      }
+      
+      .products-count {
+        /* display: flex; */
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+      }
+      
+      li {
+        width: 140px;
+       }
+      
+      /* li:nth-child(2) {
+        
+      }
+      
+      li:nth-child(3) {
+       
+      }  */
+      
+      .paused {
+        -webkit-animation-play-state: paused;
+        animation-play-state: paused;
+      }
+      @keyframes productShow {
+        0% {
+          transform: translateX(0);
+        }
+      
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+      .product-img{
+    
+        width: 200px;
+        height: 220px;
+        /* border: 1px solid red; */
+      }
+
+
+  }
+  /* ..............................customer jourey...................... */
+  .user-journey{
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 160px;
+    background-color:#faf6f2;
+     
+  }
+  .title-user-journey{
+
+    width: 120px;
+    height: 35px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 60px;
+    left: 150px;
+  }
+  .title-work{
+
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    color:black;
+    position: relative;
+    left: 10px;
+    top: 8px;
+  }
+  .icon-home-use{
+
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+}
+#t1-user-title{
+
+    font-size: 45px;
+    font-weight: 600;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: 50px;
+    left:150px;
+    width: 500px;
+}
+.bar-line{
+
+    width: 250px;
+    height: 1px;
+    background-color: black;
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+.work-flow{
+    width: 900px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    left: 30px;
+    top: 40px;
+    /* border: 1px solid red; */
+}
+.work-flow-img{
+
+    width: 90px;
+    height: 90px;
+    /* border: 1px solid red; */
+    /* box-shadow: 0px 0px 10px 0px rgb(140, 139, 139); */
+    position: relative;
+    left: 90px;
+
+}
+.work-flow-img-5{
+
+    width: 90px;
+    height: 90px;
+    /* border: 1px solid red; */
+    /* box-shadow: 0px 0px 10px 0px rgb(140, 139, 139); */
+    position: relative;
+    left: 94px;
+}
+.work-flow-img-6{
+
+    width: 90px;
+    height: 90px;
+    /* border: 1px solid red; */
+    /* box-shadow: 0px 0px 10px 0px rgb(140, 139, 139); */
+    position: relative;
+    left: 94px;
+    filter: contrast(170%);
+}
+.work-flow-img-2{
+
+    width: 90px;
+    height: 90px;
+    /* border: 1px solid red; */
+    /* box-shadow: 0px 0px 10px 0px rgb(140, 139, 139); */
+    position: relative;
+    left: 90px;
+    filter: contrast(170%);
+}
+/* .step1{
+
+    border: 1px solid blue;
+} */
+.step1 p{
+
+    font-size: 17px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 70px;
+
+}
+/* .step2{
+
+    border: 1px solid rgb(27, 121, 153);
+} */
+.step2 p{
+
+    font-size: 17px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+/* .step3{
+
+    border: 1px solid rgb(27, 153, 88);
+} */
+.step3 p{
+
+    font-size: 17px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 90px;
+
+}
+/* .step4{
+
+    border: 1px solid rgb(27, 153, 88);
+} */
+.step4 p{
+
+    font-size: 17px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 45px;
+
+}
+/* .step5{
+
+    border: 1px solid rgb(27, 153, 88);
+} */
+.step5 p{
+
+    font-size: 17px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+/* .step6{
+
+    border: 1px solid rgb(27, 153, 88);
+} */
+.step6 p{
+
+    font-size: 17px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 60px;
+
+}
+/* .........................media query for work flow..................... */
+
+@media(max-width :600px){
+
+    .user-journey{
+
+        width: 600px;
+        height: 100vh;
+        position: relative;
+        top: 190px;
+      }
+      .title-user-journey{
+    
+        width: 120px;
+        height: 35px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 60px;
+        left: 50px;
+      }
+      .title-work{
+    
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Jost', sans-serif;
+        color:black;
+        position: relative;
+        left: 10px;
+        top: 8px;
+      }
+      .icon-home-use{
+    
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 10px;
+        border-radius: 50%;
+    }
+    #t1-user-title{
+    
+        font-size: 35px;
+        font-weight: 600;
+        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 60px;
+        left:50px;
+        width: 430px;
+        /* border: 1px solid red; */
+    }
+    .bar-line{
+    
+        width: 200px;
+        height: 1px;
+        background-color: black;
+        position: relative;
+        left: 30px;
+        top: 35px;
+        /* border: 1px solid red; */
+    }
+    .work-flow{
+        width: 500px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        left: 10px;
+        top: 40px;
+        /* border: 1px solid red; */
+    }
+    .work-flow-img{
+    
+        width: 90px;
+        height: 90px;
+        /* border: 1px solid red; */
+        /* box-shadow: 0px 0px 10px 0px rgb(140, 139, 139); */
+        position: relative;
+        left: 90px;
+    
+    }
+    .work-flow-img-5{
+    
+        width: 90px;
+        height: 90px;
+        /* border: 1px solid red; */
+        /* box-shadow: 0px 0px 10px 0px rgb(140, 139, 139); */
+        position: relative;
+        left: 94px;
+    }
+    .work-flow-img-6{
+    
+        width: 90px;
+        height: 90px;
+        /* border: 1px solid red; */
+        /* box-shadow: 0px 0px 10px 0px rgb(140, 139, 139); */
+        position: relative;
+        left: 94px;
+        filter: contrast(170%);
+    }
+    .work-flow-img-2{
+    
+        width: 90px;
+        height: 90px;
+        /* border: 1px solid red; */
+        /* box-shadow: 0px 0px 10px 0px rgb(140, 139, 139); */
+        position: relative;
+        left: 90px;
+        filter: contrast(170%);
+    }
+    /* .step1{
+    
+        border: 1px solid blue;
+    } */
+    .step1 p{
+    
+        font-size: 17px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: 10px;
+        left: 70px;
+        /* border: 1px solid red; */
+        width: 120px;
+    
+    }
+    /* .step2{
+    
+        border: 1px solid rgb(27, 121, 153);
+    }  */
+    .step2 p{
+    
+        font-size: 17px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: 10px;
+        left: 70px;
+        /* border: 1px solid red; */
+        width: 140px;
+    }
+    /* .step3{
+    
+        border: 1px solid rgb(27, 153, 88);
+    } */
+    .step3 p{
+    
+        font-size: 17px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: 10px;
+        left: 90px;
+        /* border: 1px solid red; */
+        width: 120px;
+    
+    }
+    /* .step4{
+    
+        border: 1px solid rgb(27, 153, 88);
+    } */
+    .step4 p{
+    
+        font-size: 17px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: 10px;
+        left: 35px;
+        /* border: 1px solid red; */
+        width: 190px;
+    
+    }
+    /* .step5{
+    
+        border: 1px solid rgb(27, 153, 88);
+    } */
+    .step5 p{
+    
+        font-size: 17px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: 10px;
+        left: 60px;
+        /* border: 1px solid red; */
+        width: 170px;
+    }
+    /* .step6{
+    
+        border: 1px solid rgb(27, 153, 88);
+    } */
+    .step6 p{
+    
+        font-size: 17px;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: relative;
+        top: 10px;
+        left: 50px;
+        /* border: 1px solid red; */
+        width: 170px;
+    
+    }
+
+
+}
+/* .....................women section....................... */
+
+.women-section{
+
+    width: 100%;
+    height: 780px;
+    position: relative;
+    top: 165px;
+}
+.title-women{
+    width: 500px;
+    height: 150px;
+    position: relative;
+    left: 350px;
+    top: 60px;
+    /* border: 1px solid red; */
+   
+}
+.title-women p{
+
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    left: 150px;
+    width: 250px;
+}
+.women-collection{
+    width: 480px;
+    height: 40px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+    /* border: 1px solid red; */
+}
+.btn-suits{
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: black;
+
+}
+.btn-suits a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+ 
+}
+
+.btn-sarees{
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 8px;
+
+}
+.btn-sarees a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+ 
+}
+.btn-jackets{
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 15px;
+
+}
+.btn-jackets a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-dresses{
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 20px;
+
+}
+.btn-dresses a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-lehengas{
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 25px;
+
+}
+.btn-lehengas a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-trousers{
+    text-align: center;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 30px;
+
+}
+.btn-trousers a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.bar-line2{
+
+    width: 95%;
+    height: 1px;
+    background-color: rgb(152, 149, 149);
+    position: relative;
+    left: 30px;
+    top: 100px;
+}
+.nav-women{
+
+    width: 95%;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    top: 107px;
+   
+}
+
+.alter{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.alter2{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -15px;
+    left: 110px
+}
+.alter3{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -37px;
+    left: 180px
+}
+.alter4{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -60px;
+    left: 260px
+}
+.alter5{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -85px;
+    left: 1050px
+}
+/* .....................enter-into-the-product-box-1.................... */
+
+.women-section-1{
+
+    width: 95%;
+    height: 460px;
+    position: relative;
+    top: 110px;
+    left: 30px;
+    
+}
+.row-1-container{
+
+    width: 100%;
+    height: 460px;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+.women-image-1{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/e3/81/e381368e3128812ded0e2c933990b29139b1858f.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+
+}
+.women-image-1:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/01/4b/014b8883c39da976235fa672053c1e3bbd8ebb96.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+.content1{
+
+    position: absolute;
+
+}
+.women-image-2{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/68/f3/68f3a2000799637797fcd8c668c798674f949c68.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-2:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/43/1f/431fff009785e416d9231ebcf3bd44b7fb232c12.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+
+.women-image-3{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/01/d3/01d3d4a1057960a305e8ff8ae752100aa70e6c19.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-3:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/fc/fd/fcfd60f19bd8b4787247a4d41269830023afd3c8.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+
+.women-image-4{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/5c/7f/5c7f99c3df8d4bc487dcd4aa09916f610905160e.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-4:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/5c/b2/5cb252976ccb7ed8ae73976b61ac179fed7891f8.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+/* ................row-2,............. */
+
+.women-section-2{
+
+    width: 95%;
+    height: 450;
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+
+.row-2-container{
+
+    width: 100%;
+    height: 470px;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+.women-image-5{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/d-37_2707-0659282001627561332.jpg);
+    background-size: contain;
+    transition: 0.5s;
+
+}
+.women-image-5:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/82-sp20472-0796944001642601887.jpg?noopt=true);
+}
+.women-image-6{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/pre2020haseena_19oct2022-0661313001666197750.jpg);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-6:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1585574-0059396001574078374.jpg?noopt=true);
+}
+
+.women-image-7{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1-0738858001673280010.JPG?noopt=true);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-7:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/rvfs3055_1611-0178632001637153481.jpg?noopt=true);
+}
+
+.women-image-8{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1650719-0378151001658129973.jpg);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-8:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1697121509600_1.jpg?noopt=true);
+}
+
+/* ............................media query.............................. */
+
+@media(max-width :600px){
+
+    .women-section{
+
+        width: 600px;
+        height: 1200px;
+        position: relative;
+        top: 165px;
+        /* border: 1px solid red; */
+        
+    }
+    .title-women{
+        width: 500px;
+        height: 150px;
+        position: relative;
+        left: 50px;
+        top: 60px;
+        /* border: 1px solid red;
+        */
+    }
+    .title-women p{
+    
+        font-size: 27px;
+        font-weight: 500;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        left: 150px;
+        width: 250px;
+    }
+    .women-collection{
+        width: 480px;
+        height: 40px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+        /* border: 1px solid red; */
+    }
+    .btn-suits{
+        text-align: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        color: white;
+        background-color: black;
+    
+    }
+    .btn-suits a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+     
+    }
+    
+    .btn-sarees{
+        text-align: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 8px;
+    
+    }
+    .btn-sarees a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+     
+    }
+    .btn-jackets{
+        text-align: center;
+        align-items: center;
+        width: 70px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 15px;
+    
+    }
+    .btn-jackets a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-dresses{
+        text-align: center;
+        align-items: center;
+        width: 70px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 20px;
+    
+    }
+    .btn-dresses a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-lehengas{
+        text-align: center;
+        align-items: center;
+        width: 80px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 25px;
+    
+    }
+    .btn-lehengas a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-trousers{
+        text-align: center;
+        align-items: center;
+        width: 90px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 30px;
+    
+    }
+    .btn-trousers a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .bar-line2{
+    
+        width: 90%;
+        height: 1px;
+        background-color: rgb(152, 149, 149);
+        position: relative;
+        left: 30px;
+        top: 100px;
+    }
+    .nav-women{
+    
+        width: 95%;
+        height: 50px;
+        position: relative;
+        left: 30px;
+        top: 107px;
+       
+    }
+    
+    .alter{
+    
+        border: none;
+        background-color:white ;
+        position: relative;
+        top: 10px;
+        left: 5px;
+       
+
+    }
+    .alter2{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -15px;
+        left: 110px
+    }
+    .alter3{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -37px;
+        left: 180px
+    }
+    .alter4{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -60px;
+        left: 260px
+    }
+    .alter5{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -85px;
+        left: 460px
+    }
+
+
+}
+/* ......................................row-1-women-section................... */
+
+
+@media(max-width :600px){
+
+.women-section-1{
+
+    width: 90%;
+    height: 850px;
+    position: relative;
+    top: 110px;
+    left: 30px;
+    /* border: 1px solid blue; */
+}
+.row-1-container{
+
+    width: 100%;
+    height: 850px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 13px;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+
+}
+.women-image-1{
+
+    width: 250px;
+    height: 380px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/e3/81/e381368e3128812ded0e2c933990b29139b1858f.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+
+}
+.women-image-1:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/01/4b/014b8883c39da976235fa672053c1e3bbd8ebb96.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+.content1{
+
+    position: absolute;
+
+}
+.women-image-2{
+
+    width: 250px;
+    height: 380px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/68/f3/68f3a2000799637797fcd8c668c798674f949c68.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-2:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/43/1f/431fff009785e416d9231ebcf3bd44b7fb232c12.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+
+.women-image-3{
+
+    width: 250px;
+    height: 380px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/01/d3/01d3d4a1057960a305e8ff8ae752100aa70e6c19.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-3:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/fc/fd/fcfd60f19bd8b4787247a4d41269830023afd3c8.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+
+.women-image-4{
+
+    width: 250px;
+    height: 380px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/5c/7f/5c7f99c3df8d4bc487dcd4aa09916f610905160e.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-4:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/5c/b2/5cb252976ccb7ed8ae73976b61ac179fed7891f8.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+/* ................row-2,............. */
+ .women-section-2{
+
+    width: 90%;
+    height: 830px;
+    position: relative;
+    top: 150px;
+    left: 30px;
+    /* border: 1px solid red; */
+} 
+
+.row-2-container{
+
+    width: 100%;
+    height: 820px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-content: space-between;
+    /* border: 1px solid orangered; */
+
+}
+.women-image-5{
+
+    width: 250px;
+    height: 380px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/d-37_2707-0659282001627561332.jpg);
+    background-size: contain;
+    transition: 0.5s;
+
+}
+.women-image-5:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/82-sp20472-0796944001642601887.jpg?noopt=true);
+}
+.women-image-6{
+
+    width: 250px;
+    height: 380px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/pre2020haseena_19oct2022-0661313001666197750.jpg);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-6:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1585574-0059396001574078374.jpg?noopt=true);
+}
+
+.women-image-7{
+
+    width: 250px;
+    height: 380px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1-0738858001673280010.JPG?noopt=true);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-7:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/rvfs3055_1611-0178632001637153481.jpg?noopt=true);
+}
+
+.women-image-8{
+
+    width: 250px;
+    height: 380px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1650719-0378151001658129973.jpg);
+    background-size: contain;
+    transition: 0.5s;
+}
+.women-image-8:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/1697121509600_1.jpg?noopt=true);
+} 
+}
+
+/* .....................men section....................... */
+/* .men-section-1{
+
+    border: 1px solid red;
+} */
+.men-section{
+
+    width: 100%;
+    height: 780px;
+    position: relative;
+    top: 165px;
+    /* border: 1px solid red; */
+}
+.title-men{
+    width: 550px;
+    height: 150px;
+    position: relative;
+    left: 330px;
+    top: 60px;
+    /* border: 1px solid red; */
+   
+}
+.title-men p{
+
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    left: 200px;
+    width: 250px;
+    /* border: 1px solid red; */
+}
+.Men-collection{
+    width: 510px;
+    height: 40px;
+    position: relative;
+    left: 24px;
+    top: 15px;
+    /* border: 1px solid red; */
+}
+.btn-suits-men{
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: black;
+
+}
+.btn-suits-men a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+ 
+}
+
+.btn-jeans-men{
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 8px;
+
+}
+.btn-jeans-men a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+ 
+}
+.btn-jacket-men{
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 35px;
+
+}
+.btn-jacket-men a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-shirts-men{
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 20px;
+
+}
+.btn-shirts-men a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-sherwani-men{
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 25px;
+
+}
+.btn-sherwani-men a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-trousers-men{
+    text-align: center;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 60px;
+
+}
+.btn-trousers-men a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.bar-line3{
+
+    width: 95%;
+    height: 1px;
+    background-color: rgb(152, 149, 149);
+    position: relative;
+    left: 30px;
+    top: 100px;
+}
+.nav-men{
+
+    width: 95%;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    top: 107px;
+   
+}
+
+.alter-men{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.alter2-men{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -15px;
+    left: 110px
+}
+.alter3-men{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -37px;
+    left: 180px
+}
+.alter4-men{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -60px;
+    left: 260px
+}
+.alter5-men {
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -85px;
+    left: 1050px
+}
+/* .......................section-for-men-product-show............................. */
+
+.men-section-1{
+
+    width: 95%;
+    height: 460px;
+    position: relative;
+    top: 110px;
+    left: 30px;
+    
+}
+.row-1-container-men{
+
+    width: 100%;
+    height: 460px;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+.men-image-1{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/14/db/14dba4314931f48ae6a0bcf20fdcdd70f15afe2c.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+
+}
+.men-image-1:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/34/5c/345cc744fd5b6c12f657fbf43b8d6fa8d46c7590.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[2]&call=url[file:/product/main]);
+}
+.content1{
+
+    position: absolute;
+
+}
+.men-image-2{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/a4/94/a4949e951756148f973bb1e77861461058b6d158.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.men-image-2:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/bd/cf/bdcf148cb43b32c26c5d2636410e42f48249e9cb.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+
+.men-image-3{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/a2/3b/a23bbc5c4d1c7296122cf034384de10bd4c64f44.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.men-image-3:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/6b/d1/6bd1ce8bbde1aadd24082a335f143d9875c0e1ad.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+
+.men-image-4{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/43/f8/43f82c525064e9dadf30874b01b0ed9d18841dd8.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    background-size: contain;
+    transition: 0.5s;
+}
+.men-image-4:hover{
+
+    background-image: url(https://lp.cosstores.com/app001prod?set=source[/7c/1d/7c1db196279710e33a09bf846aa8efcda404577e.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+}
+/* ................row-2,............. */
+
+.men-section-2{
+
+    width: 95%;
+    height: 430px;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    /* border: 1px solid red; */
+}
+
+.row-2-container-men{
+
+    width: 100%;
+    height: 470px;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+.men-image-5{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/sgmshw-009-0601828001649773370.jpg);
+    background-size: contain;
+    transition: 0.5s;
+
+}
+.men-image-5:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1126_0401-0278033001641303889.jpg);
+}
+.men-image-6{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1-0148525001675163938.jpg);
+    background-size: contain;
+    transition: 0.5s;
+}
+.men-image-6:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1-0220101001675163936.jpg);
+}
+
+.men-image-7{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1693814971082_AK25th23551copy.jpg);
+    background-size: contain;
+    transition: 0.5s;
+}
+.men-image-7:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1697721648257_AK0941.jpg);
+}
+
+.men-image-8{
+
+    width: 270px;
+    height: 400px;
+    position: relative;
+    background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/sn_6_2101-0534272001642765147.jpg?noopt=true);
+    background-size: contain;
+    transition: 0.5s;
+}
+.men-image-8:hover{
+
+    background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1-0719367001681835602.jpg);
+}
+
+/* ........................media-query-for men........................ */
+
+@media(max-width :600px){
+
+    .men-section{
+
+        width: 600px;
+        height: 1200px;
+        position: relative;
+        top: 165px;
+        /* border: 1px solid red; */
+        
+    }
+    .title-men{
+        width: 500px;
+        height: 150px;
+        position: relative;
+        left: 50px;
+        top: 60px;
+        /* border: 1px solid red; */
+       
+    }
+    .title-men p{
+    
+        font-size: 27px;
+        font-weight: 500;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        left: 180px;
+        width: 200px;
+        /* border: 1px solid red; */
+    }
+    .Men-collection{
+        width: 480px;
+        height: 40px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+        /* border: 1px solid red; */
+    }
+    .btn-suits-men{
+        text-align: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        color: white;
+        background-color: black;
+    
+    }
+    .btn-suits-men a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+     
+    }
+    
+    .btn-jeans-men{
+        text-align: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 8px;
+    
+    }
+    .btn-jeans-men a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+     
+    }
+    .btn-jacket-men{
+        text-align: center;
+        align-items: center;
+        width: 70px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 15px;
+    
+    }
+    .btn-jacket-men a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-shirts-men{
+        text-align: center;
+        align-items: center;
+        width: 70px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 20px;
+    
+    }
+    .btn-shirts-men a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-sherwani-men{
+        text-align: center;
+        align-items: center;
+        width: 80px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 25px;
+    
+    }
+    .btn-sherwani-men a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-trousers-men{
+        text-align: center;
+        align-items: center;
+        width: 90px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 30px;
+    
+    }
+    .btn-trousers-men a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .bar-line3{
+    
+        width: 90%;
+        height: 1px;
+        background-color: rgb(152, 149, 149);
+        position: relative;
+        left: 30px;
+        top: 100px;
+    }
+    .nav-men{
+    
+        width: 95%;
+        height: 50px;
+        position: relative;
+        left: 30px;
+        top: 107px;
+       
+    }
+    
+    .alter-men{
+    
+        border: none;
+        background-color:white ;
+        position: relative;
+        top: 10px;
+        left: 5px;
+       
+
+    }
+    .alter2-men{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -15px;
+        left: 110px
+    }
+    .alter3-men{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -37px;
+        left: 180px
+    }
+    .alter4-men{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -60px;
+        left: 260px
+    }
+    .alter5-men{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -85px;
+        left: 460px
+    }
+
+
+}
+/* ......................................row-1-women-section................... */
+
+
+@media(max-width :600px){
+
+    .men-section-1{
+    
+        width: 90%;
+        height: 850px;
+        position: relative;
+        top: 110px;
+        left: 30px;
+        /* border: 1px solid blue; */
+    }
+    .row-1-container-men{
+    
+        width: 100%;
+        height: 850px;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 13px;
+        justify-content: space-between;
+        /* border: 1px solid green; */
+    
+    }
+    .men-image-1{
+    
+        width: 250px;
+        height: 380px;
+        position: relative;
+        background-image: url(https://lp.cosstores.com/app001prod?set=source[/14/db/14dba4314931f48ae6a0bcf20fdcdd70f15afe2c.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+        background-size: contain;
+        transition: 0.5s;
+    
+    }
+    .men-image-1:hover{
+    
+        background-image: url(https://lp.cosstores.com/app001prod?set=source[/34/5c/345cc744fd5b6c12f657fbf43b8d6fa8d46c7590.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[2]&call=url[file:/product/main]);
+    }
+    /* .content1{
+    
+        position: absolute;
+    
+    } */
+    .men-image-2{
+    
+        width: 250px;
+        height: 380px;
+        position: relative;
+        background-image: url(https://lp.cosstores.com/app001prod?set=source[/a4/94/a4949e951756148f973bb1e77861461058b6d158.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+        background-size: contain;
+        transition: 0.5s;
+    }
+    .men-image-2:hover{
+    
+        background-image: url(https://lp.cosstores.com/app001prod?set=source[/bd/cf/bdcf148cb43b32c26c5d2636410e42f48249e9cb.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    }
+    
+    .men-image-3{
+    
+        width: 250px;
+        height: 380px;
+        position: relative;
+        background-image: url(https://lp.cosstores.com/app001prod?set=source[/a2/3b/a23bbc5c4d1c7296122cf034384de10bd4c64f44.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+        background-size: contain;
+        transition: 0.5s;
+    }
+    .men-image-3:hover{
+    
+        background-image: url(https://lp.cosstores.com/app001prod?set=source[/6b/d1/6bd1ce8bbde1aadd24082a335f143d9875c0e1ad.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    }
+    
+    .men-image-4{
+    
+        width: 250px;
+        height: 380px;
+        position: relative;
+        background-image: url(https://lp.cosstores.com/app001prod?set=source[/43/f8/43f82c525064e9dadf30874b01b0ed9d18841dd8.jpg],origin[dam],type[LOOKBOOK],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+        background-size: contain;
+        transition: 0.5s;
+    }
+    .men-image-4:hover{
+    
+        background-image: url(https://lp.cosstores.com/app001prod?set=source[/7c/1d/7c1db196279710e33a09bf846aa8efcda404577e.jpg],origin[dam],type[DESCRIPTIVESTILLLIFE],device[hdpi],quality[80],ImageVersion[1]&call=url[file:/product/main]);
+    }
+    /* ................row-2,............. */
+     .men-section-2{
+    
+        width: 90%;
+        height: 830px;
+        position: relative;
+        top: 150px;
+        left: 30px;
+        /* border: 1px solid red; */
+    } 
+    
+    .row-2-container-men{
+    
+        width: 100%;
+        height: 820px;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        justify-content: space-between;
+        /* border: 1px solid orangered; */
+    
+    }
+    .men-image-5{
+    
+        width: 250px;
+        height: 380px;
+        position: relative;
+        background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/sgmshw-009-0601828001649773370.jpg);
+        background-size: contain;
+        transition: 0.5s;
+    
+    }
+    .men-image-5:hover{
+    
+        background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1126_0401-0278033001641303889.jpg);
+    }
+    .men-image-6{
+    
+        width: 250px;
+        height: 380px;
+        position: relative;
+        background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1-0148525001675163938.jpg);
+        background-size: contain;
+        transition: 0.5s;
+    }
+    .men-image-6:hover{
+    
+        background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1-0220101001675163936.jpg);
+    }
+    
+    .men-image-7{
+    
+        width: 250px;
+        height: 380px;
+        position: relative;
+        background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1693814971082_AK25th23551copy.jpg);
+        background-size: contain;
+        transition: 0.5s;
+    }
+    .men-image-7:hover{
+    
+        background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1697721648257_AK0941.jpg);
+    }
+    
+    .men-image-8{
+    
+        width: 250px;
+        height: 380px;
+        position: relative;
+        background-image: url(https://static3.azafashions.com/tr:w-317/uploads/product_gallery/sn_6_2101-0534272001642765147.jpg?noopt=true);
+        background-size: contain;
+        transition: 0.5s;
+    }
+    .men-image-8:hover{
+    
+        background-image: url(https://static3.azafashions.com/tr:w-575.0,dpr-2/uploads/product_gallery/1-0719367001681835602.jpg);
+    } 
+    }
+    /* ..............................our-works.......................... */
+
+    .our-works{
+
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 125px;
+        background-color:#faf6f2;
+    }
+    .title-box-company{
+
+        width: 470PX;
+        height: 90px;
+        /* border: 1px solid rebeccapurple; */
+        position: relative;
+        left: 50px;
+        top: 37px;
+        /* background-color: antiquewhite; */
+    }
+    .t1-works{
+
+        font-size: 15px;
+        font-weight: 500;
+        color: black;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+
+    }
+    .t2-works{
+
+        font-size: 37px;
+        font-weight: 600;
+        color: black;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: -20px;
+
+    }
+    #title-line{
+
+       width:400px;
+       height: 2px;
+       background-color: black;
+       position: relative;
+       top: -35px;
+       
+    }
+    .ADVANTAGES{
+
+        width: 550px;
+        height: 380px;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 70px;
+        left: 10px;
+
+    }
+    .sub-title1{
+
+        width: 290px;
+        height: 55px;
+        /* border: 1px solid red; */
+        position: relative;
+        left: 110px;
+        box-shadow: 0px 0px 10px 0px rgb(168, 167, 167);
+    }
+    .sub-title1 p{
+
+        position: relative;
+        left: 70px;
+        top: 12px;
+        
+    }
+
+    .sub-title2{
+
+        width: 290px;
+        height: 55px;
+        /* border: 1px solid red; */
+        position: relative;
+        left: 110px;
+        top: 40px;
+        box-shadow: 0px 0px 10px 0px rgb(168, 167, 167);
+    }
+    .sub-title2 p{
+
+        position: relative;
+        left: 70px;
+        top: 12px;
+        
+    }
+    .sub-title3{
+
+        width: 290px;
+        height: 55px;
+        /* border: 1px solid red; */
+        position: relative;
+        left: 110px;
+        top: 80px;
+        box-shadow: 0px 0px 10px 0px rgb(168, 167, 167);
+
+    }
+    .sub-title3 p{
+
+        position: relative;
+        left: 70px;
+        top: 12px;
+        
+    }
+    .sub-title4{
+
+        width: 290px;
+        height: 55px;
+        /* border: 1px solid red; */
+        position: relative;
+        left: 110px;
+        top: 120px;
+        box-shadow: 0px 0px 10px 0px rgb(168, 167, 167);
+    }
+    .sub-title4 p{
+
+        position: relative;
+        left: 70px;
+        top: 12px;
+        
+    }
+    .filter{
+
+        width: 550px;
+        height: 500px;
+        /* border: 1px solid red; */
+        position: relative;
+        left: 660px;
+        top: -430px;
+        box-shadow: 0px 0px 10px 0px rgb(168, 167, 167);
+    }
+    .option1{
+
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        border-top: 1px solid rgb(65, 62, 62) ;
+        border-left:none ;
+        border-right:none ;
+        border-bottom:1px solid rgb(103, 102, 102) ;
+        background-color: transparent;
+       
+    }
+    .option2{
+
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        border-top:none ;
+        border-left:none ;
+        border-right:none ;
+        border-bottom:1px solid rgb(103, 102, 102) ;
+        background-color: transparent;
+        
+       
+    }
+    .option3{
+
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        border-top:none ;
+        border-left:none ;
+        border-right:none ;
+        border-bottom:1px solid rgb(103, 102, 102) ;
+        background-color: transparent;
+    }
+    .option4{
+
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        border-top:none ;
+        border-left:none ;
+        border-right:none ;
+        border-bottom:1px solid rgb(103, 102, 102) ;
+        background-color: transparent; 
+    }
+    .option5{
+
+        width: 90%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+        border-top:none ;
+        border-left:none ;
+        border-right:none ;
+        border-bottom:1px solid rgb(103, 102, 102) ;
+        background-color: transparent;
+    }
+    #reset{
+
+        width: 210px;
+        height: 45px;
+        position: relative;
+        top: 70px;
+        left: 50px;
+        border: none;
+        background-color:white;
+        border: 1px solid rgb(140, 139, 139);
+    }
+    /* #reset::placeholder{
+
+        color: red;
+    } */
+    #view-item{
+
+        width: 210px;
+        height: 45px;
+        position: relative;
+        top: 70px;
+        left: 80px;
+        background-color: black;
+        color: white;
+       
+    }
+    .filter-sort{
+
+        font-size: 26px;
+        font-weight: 600;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        left: 200px;
+        top: 20px;
+        width: 170px;
+
+    }
+   
+
+
+
+
+    /* ...............................................our............. */
+    @media(max-width :600px){
+
+        .our-works{
+
+            width: 100%;
+            height: 1150px;
+            /* border: 1px solid red; */
+            position: relative;
+            top: 155px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            background-color:#faf6f2;
+        }
+        .title-box-company{
+    
+            width: 470PX;
+            height: 90px;
+            /* border: 1px solid rebeccapurple; */
+            position: relative;
+            left: 90px;
+            top: 50px;
+        }
+        .t1-works{
+    
+            font-size: 15px;
+            font-weight: 500;
+            color: black;
+            font-family: 'Jost', sans-serif;
+            position: relative;
+    
+        }
+        .t2-works{
+    
+            font-size: 37px;
+            font-weight: 600;
+            color: black;
+            font-family: 'Jost', sans-serif;
+            position: relative;
+            top: -20px;
+    
+        }
+        #title-line{
+    
+           width:400px;
+           height: 2px;
+           background-color: black;
+           position: relative;
+           top: -35px;
+           
+        }
+        .ADVANTAGES{
+    
+            width: 550px;
+            height: 380px;
+            /* border: 1px solid red; */
+            position: relative;
+            top: 20px;
+            left: 40px;
+    
+        }
+        .sub-title1{
+    
+            width: 290px;
+            height: 55px;
+            /* border: 1px solid red; */
+            position: relative;
+            left: 110px;
+            box-shadow: 0px 0px 10px 0px rgb(105, 104, 104);
+        }
+        .sub-title1 p{
+    
+            position: relative;
+            left: 70px;
+            top: 12px;
+            
+        }
+    
+        .sub-title2{
+    
+            width: 290px;
+            height: 55px;
+            /* border: 1px solid red; */
+            position: relative;
+            left: 110px;
+            top: 40px;
+            box-shadow: 0px 0px 10px 0px rgb(105, 104, 104);
+        }
+        .sub-title2 p{
+    
+            position: relative;
+            left: 70px;
+            top: 12px;
+            
+        }
+        .sub-title3{
+    
+            width: 290px;
+            height: 55px;
+            /* border: 1px solid red; */
+            position: relative;
+            left: 110px;
+            top: 80px;
+            box-shadow: 0px 0px 10px 0px rgb(105, 104, 104);
+    
+        }
+        .sub-title3 p{
+    
+            position: relative;
+            left: 70px;
+            top: 12px;
+            
+        }
+        .sub-title4{
+    
+            width: 290px;
+            height: 55px;
+            /* border: 1px solid red; */
+            position: relative;
+            left: 110px;
+            top: 120px;
+            box-shadow: 0px 0px 10px 0px rgb(105, 104, 104);
+        }
+        .sub-title4 p{
+    
+            position: relative;
+            left: 70px;
+            top: 12px;
+            
+        }
+
+        .filter{
+
+            width: 520px;
+            height: 500px;
+            position: relative;
+            left: 40px;
+            top: -30px;
+            box-shadow: 0px 0px 10px 0px rgb(47, 47, 47);
+            display: block;
+        }
+        .option1{
+    
+            width: 90%;
+            height: 50px;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            border-top: 1px solid rgb(65, 62, 62) ;
+            border-left:none ;
+            border-right:none ;
+            border-bottom:1px solid rgb(103, 102, 102) ;
+            background-color: transparent;
+           
+        }
+        .option2{
+    
+            width: 90%;
+            height: 50px;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            border-top:none ;
+            border-left:none ;
+            border-right:none ;
+            border-bottom:1px solid rgb(103, 102, 102) ;
+            background-color: transparent;
+            
+           
+        }
+        .option3{
+    
+            width: 90%;
+            height: 50px;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            border-top:none ;
+            border-left:none ;
+            border-right:none ;
+            border-bottom:1px solid rgb(103, 102, 102) ;
+            background-color: transparent;
+        }
+        .option4{
+    
+            width: 90%;
+            height: 50px;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            border-top:none ;
+            border-left:none ;
+            border-right:none ;
+            border-bottom:1px solid rgb(103, 102, 102) ;
+            background-color: transparent; 
+        }
+        .option5{
+    
+            width: 90%;
+            height: 50px;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            border-top:none ;
+            border-left:none ;
+            border-right:none ;
+            border-bottom:1px solid rgb(103, 102, 102) ;
+            background-color: transparent;
+        }
+        #reset{
+    
+            width: 190px;
+            height: 45px;
+            position: relative;
+            top: 70px;
+            left: 50px;
+            border: none;
+            background-color: white;
+            /* border: 1px solid rgb(140, 139, 139); */
+            box-shadow: 0px 5px 5px 0px rgb(174, 172, 172);
+        }
+        /* #reset::placeholder{
+    
+            color: red;
+        } */
+
+        #reset:hover{
+
+            background-color: black;
+            color: white;
+
+        }
+
+
+        #view-item{
+    
+            width: 190px;
+            height: 45px;
+            position: relative;
+            top: 70px;
+            left: 90px;
+            background-color: black;
+            color: white;
+            box-shadow: 0px 5px 5px 0px rgb(174, 172, 172);
+           
+        }
+        #view-item:hover{
+
+            background-color:white;
+            color: black;
+
+        }
+        .filter-sort{
+    
+            font-size: 26px;
+            font-weight: 600;
+            font-family: 'Jost', sans-serif;
+            position: relative;
+            left: 200px;
+            top: 20px;
+            width: 170px;
+    
+        }
+       
+    
+
+
+    }
+
+    
+
+    /* ...............................footer............................ */
+    .footer{
+        width: 100%;
+        height:360px;
+        background-color:black;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 150px; 
+    }
+
+    #box1{
+        width: 330px;
+        height: 358px;
+       
+    }
+    .wings1{
+        color: rgb(123, 121, 121) ;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 10px;
+        font-size: 40px;
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+    .wings2{
+        color: rgb(123, 121, 121) ;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        margin-left: 13%;
+        margin-top: 3%;
+    }
+    .wings3{
+        color: rgb(123, 121, 121) ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:17px;
+        margin-left: 2%;
+        margin-top: 7%;
+        word-spacing: 7px;
+        position: relative;
+        left: 10px;
+        width: 315px;
+    }
+    .fa-brands{
+        color: rgb(123, 121, 121) ;
+        font-size: 20px;
+        margin-top: 15%;
+        margin-left: 15%;
+    
+    
+    }
+    
+    #box2{
+        width: 225px;
+        height: 358px;
+        background-color:black;
+       
+    }
+    .information{
+        color:white;
+        font-size: 23px;
+        font-family:monospace;
+        margin-left: 15%;
+        margin-top: 23%;
+    }
+    .list{
+        color: aliceblue;
+        list-style: none;
+        line-height: 30px;
+        margin-left: 35px;
+        margin-top: 25px;
+        color: rgb(123, 121, 121) ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #box3{
+        width: 220px;
+        height: 358px;
+    }
+    .service{
+        color:white;
+        font-size: 23px;
+        font-family:monospace;
+        margin-left: 23%;
+        margin-top: 23%;
+    }
+    .list2{
+        color: rgb(123, 121, 121) ;
+        line-height: 30px;
+        list-style: none;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+    
+    #box4{
+        width: 220px;
+        height: 358px;
+    }
+    .categ{
+        color:white;
+        font-size: 23px;
+        font-family:monospace;
+        margin-left: 20%;
+        margin-top: 23%;
+    }
+    .list3{
+        color: rgb(123, 121, 121) ;
+        line-height: 30px;
+        list-style: none;
+        margin-left: 46px;
+        margin-top: 20px; 
+      
+    }
+    #box5{
+        width: 200px;
+        height: 330px;
+        position: relative;
+        left: 40px;
+        top: 15px;
+    }
+    .contactlast{
+        color:white;
+        font-size: 23px;
+        font-family:monospace;
+        margin-left: 10%;
+        margin-top: 18%;
+    }
+    .address{
+        font-size: 17px;
+        margin-left: 10%;
+        margin-top: 10%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(238, 243, 248, 0.79);
+    }
+    .paraaddress{
+        color: rgb(123, 121, 121) ;
+        word-spacing: 10px;
+        line-height: 25px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .mobile{
+        font-size: 15px;
+        margin-left: 10%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(238, 243, 248, 0.79);
+    }
+    .no{
+        color: rgb(123, 121, 121) ;
+        font-size: 15px;
+        font-family: monospace;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .email{
+        color: rgba(241, 242, 243, 0.79);
+        font-size: 15px;
+        font-family: monospace;
+        margin-left: 10%;
+        margin-top: -0.5px; 
+    }
+    /* .............................. media-query-footer.................... */
+
+    @media(max-width :600px){
+
+        .footer{
+            width: 100%;
+            height:360px;
+            background-color:black;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            position: relative;
+            top: 130px;
+            
+            
+        }
+        #box1{
+            width: 250px;
+            height: 308px;
+            /* border: 1px solid rgb(249, 244, 244); */
+            position: relative;
+            top: 20px;
+            left: 20px;
+           
+        }
+        .wings1{
+            color: rgb(123, 121, 121) ;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            letter-spacing: 10px;
+            font-size: 30px;
+            position: relative;
+            top: 13px;
+            left:-15px;
+            width: 160px;
+            /* border: 1px solid red; */
+
+        }
+        .wings2{
+            color: rgb(123, 121, 121) ;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 11px;
+            /* border: 1px solid red; */
+            width: 240px;
+            height: 20px;
+            position: relative;
+            top: 27px;
+            left: -34px;
+        
+
+        }
+        .wings3{
+            color: rgb(123, 121, 121) ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:13px;
+            word-spacing: 7px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            width: 230px;
+            height: 90px;
+            /* border: 1px solid red; */
+        }
+        .fa-brands{
+            color: rgb(123, 121, 121) ;
+            font-size: 20px;
+            /* border: 1px solid red; */
+            position: relative;
+            top: -7px;
+           
+
+        
+        
+        }
+        
+        #box2{
+            width: 240px;
+            height: 358px;
+            background-color:rgb(8, 8, 8);
+            position: relative;
+            left: -290px;
+
+           
+        }
+        .information{
+            color:white;
+            font-size: 23px;
+            font-family:monospace;
+            margin-left: 15%;
+            margin-top: 23%;
+        }
+        .list{
+           
+            list-style: none;
+            line-height: 30px;
+            margin-left: 35px;
+            margin-top: 25px;
+            color: rgb(123, 121, 121) ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        #box3{
+            width: 280px;
+            height: 350px;
+            position: relative;
+            /* border: 1px solid red; */
+         
+        }
+        .service{
+            color:black;
+            font-size: 23px;
+            font-weight: 600;
+            font-family:monospace;
+            position: relative;
+            top: -25px;
+            left: -35px;
+            width: 130px;
+
+            
+          
+        }
+        .list2{
+            color: rgb(123, 121, 121) ;
+            line-height: 30px;
+            list-style: none;
+            margin-left: 50px;
+            margin-top: 25px;
+            position: relative;
+            top: -30px;
+            left: -20px;
+          
+
+        }
+        
+        #box4{
+            width: 250px;
+            height: 350px;
+            position: relative;
+            left: -270px;
+            /* border: 1px solid red; */
+           
+           
+        }
+        .categ{
+            color:rgb(18, 18, 18);
+            font-size: 23px;
+            font: 600;
+            font-family:monospace;
+            position: relative;
+            left: -10px;
+            top: -20px;
+            width: 130px;
+
+            
+            
+        }
+        .list3{
+            color: rgb(123, 121, 121) ;
+            line-height: 30px;
+            list-style: none;
+            position: relative;
+            top: -25px;
+          
+        }
+        #box5{
+            width: 600px;
+            height: 370px;
+            position: relative;
+            left: 1px;
+            top: 0px;
+            background-color: black;
+        }
+        .contactlast{
+            color:white;
+            font-size: 20px;
+            font-family:monospace;
+            width: 130px;
+            position: relative;
+            top: -60px;
+
+        }
+        .address{
+            font-size: 17px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgba(238, 243, 248, 0.79);
+            position: relative;
+            top: -90px;
+        }
+        .paraaddress{
+            color: rgb(123, 121, 121) ;
+            word-spacing: 10px;
+            line-height: 25px;
+            position: relative;
+            top: -100px;
+
+          
+        }
+        .mobile{
+            font-size: 15px;
+            margin-left: 10%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgba(238, 243, 248, 0.79);
+            width: 130px;
+            position: relative;
+            top: -90px;
+        }
+        .no{
+            color: rgb(123, 121, 121) ;
+            font-size: 15px;
+            font-family: monospace;
+            position: relative;
+            top: -100px;
+            width: 130px;
+            
+        }
+        .email{
+            color: rgba(241, 242, 243, 0.79);
+            font-size: 15px;
+            font-family: monospace;
+            width: 180px;
+            position: relative;
+            top: -100px;
+          
+        }
+
+
+    }
+    /* ..................... */
+
+    .testimonials{
+
+        width: 100%;
+        height: 630px;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 150px;
+     
+    }
+    .container{
+
+        max-width: 400px;
+        margin: auto;
+        padding: 0 15px;
+        /* border: 1px solid red; */
+    }
+      
+    .section-header{
+
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .section-header .title{
+
+        font-size: 35px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: hsl(0, 1%, 17%);
+        line-height: 1.2;
+        position: relative;
+        top: -20px;
+    }
+    .testimonials{
+        padding:100px 0;
+    }
+    .testimonials-item{
+
+        background-color:#ded1bd;
+        padding: 30px;
+        border-radius:30px;
+    }
+    .testimonials-item .info{
+
+        display: flex;
+        align-items: center;
+    }
+
+    .testimonials-item img{
+      
+        max-width: 80px;
+        border-radius:40px;
+        margin-right:20px;
+        vertical-align: middle;
+    
+    }
+    .testimonials-item .name{
+
+        font-size: 24px;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: hsl(0, 0%,0%);
+        line-height: 1.2;
+
+    }
+    .testimonials-item .job{
+        text-transform: capitalize;
+        color: hsl(0, 0%,40%);
+    }
+    .testimonials-item p{
+
+        margin-top: 20px;
+        color: hsl(0, 0%,40%);
+    }
+    .testimonials-item .rating{
+        margin-top: 15px;
+        font-size:17px;
+        color:hsl(36, 88%,66%);
+
+    }
+    .testimonials .swiper-pagination{
+
+        position: relative;
+        /* margin-top: 40px; */
+        bottom: auto;
+    }
+    .testimonials .swiper-pagination-bullet{
+
+        height: 12px;
+        width: 12px;
+        background-color: black;
+        /* border: 1px solid red; */
+        position: relative;
+        top: 60px;
+    }
+    
+
+
+   
+
+    
+    
+
+
+
+
+
+
+
+

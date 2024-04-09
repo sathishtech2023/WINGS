@@ -1,0 +1,1183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* body{
+
+} */
+
+.women-section{
+
+    width: 100%;
+    height: 280px;
+    position: relative;
+    /* border: 1px solid rgb(88, 52, 218); */
+}
+.title-women{
+    width: 500px;
+    height: 120px;
+    position: relative;
+    left: 380px;
+    top: 40px;
+    /* border: 1px solid red; */
+   
+}
+.title-women p{
+
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    left: 150px;
+    width: 250px;
+}
+.women-collection{
+    width: 480px;
+    height: 40px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+    /* border: 1px solid red; */
+}
+.btn-suits{
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: black;
+
+}
+.btn-suits a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+ 
+}
+
+.btn-sarees{
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 8px;
+
+}
+.btn-sarees a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+ 
+}
+.btn-jackets{
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 15px;
+
+}
+.btn-jackets a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-dresses{
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 20px;
+
+}
+.btn-dresses a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-lehengas{
+    text-align: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 25px;
+
+}
+.btn-lehengas a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-trousers{
+    text-align: center;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 30px;
+
+}
+.btn-trousers a{
+   
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.bar-line2{
+
+    width: 95%;
+    height: 1px;
+    background-color: rgb(152, 149, 149);
+    position: relative;
+    left: 30px;
+    top: 95px;
+}
+.nav-women{
+
+    width: 95%;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    top: 107px;
+   
+}
+
+.alter{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -5px;
+    left: 0px;
+}
+.alter2{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -27px;
+    left: 100px
+}
+.alter3{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -50px;
+    left: 170px
+}
+.alter4{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -75px;
+    left: 250px
+}
+.alter5{
+
+    border: none;
+    background-color:white ;
+    /* border: 1px solid red; */
+    position: relative;
+    top: -100px;
+    left: 1120px
+}
+
+/* ...............................product-section............. */
+.container{
+
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    min-height: 1000px;
+    display: flex;
+    position: relative;
+    top: 140px;
+
+}
+.sidebar{
+
+    background-color:rgb(245, 249, 252);
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    left: -20px;
+}
+.logo{
+
+    font-weight: 800;
+    font-size: 23px;
+    /* text-transform: uppercase; */
+    color:black;
+    margin-bottom: 10px;
+    font-family: 'Jost', sans-serif;
+}
+.sidebar input[type="text"] {
+
+    padding: 5px 5px;
+    outline: none;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.sidebar h3{
+    font-size: 18PX;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Jost', sans-serif;
+
+}
+.sidebar ul{
+
+    list-style: none;
+}
+.sidebar ul li{
+
+    margin:5px 0;
+    padding-left:5px;
+    cursor: pointer;
+}
+.sidebar ul li:hover{
+
+    background-color: #ded0b6;
+}
+.content{
+
+    flex: 4;
+}
+.products{
+
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+    /* border: 1px solid rebeccapurple; */
+    
+}
+.product{
+
+    width: 250px;
+    display: flex;
+    flex-direction: column; 
+    position: relative; 
+    box-shadow: 0px 0px 13px 0px rgb(216, 215, 215);
+    overflow: hidden;
+    
+}
+.product:hover img{
+
+    transform: scale(1.5);
+
+}
+
+.product .img{
+
+    flex: 1;
+    /* border: 1px solid red; */
+  
+}
+.product .img img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.8s;
+}
+.product .product-details{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-details span:nth-child(1){
+
+    color: rgb(83, 82, 82);
+    font-weight: 500;
+    font: 25px;
+    font-family: 'Jost', sans-serif;
+    
+}
+.product-details span:nth-child(2){
+
+    color:black;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: 'Jost', sans-serif;
+}
+.product-details span:nth-child(3){
+
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+}
+.hover-div{
+
+    background-color: rgba(214, 205, 206, 0.2);
+    backdrop-filter: blur(10px);
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    top: 180px;
+    z-index: -3;
+   
+}
+.img:hover .hover-div{
+
+    z-index: 3;
+}
+
+.hover-head{
+
+    font-size: 18px;
+    font-weight:600;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: rgb(237, 74, 74);
+}
+.content-info{
+    
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    position: relative;
+    top:30px;
+    padding-left: 5px;
+    padding-right:5px ;
+}
+.row-1{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width: 240px;
+    height: 60px;
+    position: relative;
+    top: 0px;
+    
+    
+    
+}
+.row2{
+
+    display: grid;
+    grid-template-columns:22% 22% 47%;
+    gap: 10px;
+    width: 240px;
+    height: 27px;
+    position: relative;
+    top: 10px;
+  
+}
+.row-3{
+
+    display: grid;
+    grid-template-columns:48.5% 49%;
+    gap: 4px;
+    /* background-color: red; */
+    position: relative;
+    top: 20px;
+    width: 240px;
+    height: 35px;
+   
+}
+.btn-hover{
+
+    background: transparent;
+    border: 1px solid rgb(157, 156, 156);
+    color: black;
+    cursor: pointer;
+}
+.btn-hover-A{
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+
+.btn-hover-b{
+
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-hover:hover{
+
+   
+    color:white;
+    background-color: black;
+}
+@media(max-width :600px){
+
+
+
+    .women-section{
+
+        width: 600px;
+        height: 1200px;
+        position: relative;
+        top: 0px;
+        /* border: 1px solid red; */
+        
+    }
+    .title-women{
+        width: 500px;
+        height: 130px;
+        position: relative;
+        left: 50px;
+        top: 30px;
+        /* border: 1px solid red;
+        */
+    } 
+    .title-women p{
+    
+        font-size: 27px;
+        font-weight: 500;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        left: 150px;
+        width: 250px;
+    }
+    .women-collection{
+        width: 480px;
+        height: 40px;
+        position: relative;
+        left: 10px;
+        top: 0px;
+        /* border: 1px solid red; */
+    }
+    .btn-suits{
+        text-align: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        color: white;
+        background-color: black;
+    
+    }
+    .btn-suits a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+     
+    }
+    
+    .btn-sarees{
+        text-align: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 8px;
+    
+    }
+    .btn-sarees a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+     
+    }
+    .btn-jackets{
+        text-align: center;
+        align-items: center;
+        width: 70px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 15px;
+    
+    }
+    .btn-jackets a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-dresses{
+        text-align: center;
+        align-items: center;
+        width: 70px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 20px;
+    
+    }
+    .btn-dresses a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-lehengas{
+        text-align: center;
+        align-items: center;
+        width: 80px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 25px;
+    
+    }
+    .btn-lehengas a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-trousers{
+        text-align: center;
+        align-items: center;
+        width: 90px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 30px;
+    
+    }
+    .btn-trousers a{
+       
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
+    .bar-line2{
+    
+        width: 95%px;
+        height: 1px;
+        background-color: rgb(208, 204, 204);
+        position: relative;
+        left: 15px;
+        top: 50px;
+    }
+    .nav-women{
+    
+        width: 95%;
+        height: 50px;
+        position: relative;
+        left: 30px;
+        top: 50px;
+        /* border: 1px slateblue; */
+       
+    }
+    
+    .alter{
+    
+        border: none;
+        background-color:white ;
+        position: relative;
+        top: 5px;
+        left: -10px;
+        /* border: 1px solid red; */
+       
+
+    }
+    .alter2{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -19px;
+        left: 80px
+    }
+    .alter3{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -43px;
+        left: 150px
+    }
+    .alter4{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -67px;
+        left: 230px
+    }
+    .alter5{
+    
+        border: none;
+        background-color:white ;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -90px;
+        left: 470px
+    }
+
+
+    /* ..................product-section.............. */
+
+    .container{
+
+        background-color: white;
+        width:600px;
+        margin: 0 auto;
+        min-height: 1000px;
+        display: flex;
+        position: relative;
+        top: 50px;
+    
+    }
+    .sidebar{
+    
+        background-color:rgb(245, 249, 252);
+        flex: 1;
+        padding: 30px;
+        position: relative;
+        top: 20px;
+        left: 0px;
+        /* border: 1px solid red; */
+    }
+
+    .products{
+
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: relative;
+        left: 20px;
+        top: 20px;
+        /* border: 1px solid rebeccapurple; */
+        
+    }
+    .product{
+
+        width: 250px;
+        display: flex;
+        flex-direction: column; 
+        position: relative; 
+        left: 35px;
+        box-shadow: 0px 0px 13px 0px rgb(216, 215, 215);
+        overflow: hidden;
+        /* border: 1px solid red; */
+        
+    }
+
+    .hover-div{
+
+        background-color: rgba(214, 205, 206, 0.2);
+        backdrop-filter: blur(10px);
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        top: 180px;
+        z-index: -3;
+        /* border: 1px solid red; */
+       
+    }
+    .img:hover .hover-div{
+    
+        z-index: 3;
+    }
+    
+    .hover-head{
+    
+        font-size: 18px;
+        font-weight:600;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        color: rgb(237, 74, 74);
+    }
+    .content-info{
+        
+        width: 250px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        position: relative;
+        top:30px;
+        padding-left: 5px;
+        padding-right:5px ;
+    }
+    #txtsearch{
+
+        /* border: 1px solid red; */
+        width: 200px;
+        height: 30px;
+    }
+    .row-1{
+    
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        width: 240px;
+        height: 60px;
+        position: relative;
+        top: 0px;
+        
+        
+        
+    }
+    .row2{
+    
+        display: grid;
+        grid-template-columns:22% 22% 47%;
+        gap: 10px;
+        width: 240px;
+        height: 27px;
+        position: relative;
+        top: 10px;
+      
+    }
+    .row-3{
+    
+        display: grid;
+        grid-template-columns:48.5% 49%;
+        gap: 4px;
+        /* background-color: red; */
+        position: relative;
+        top: 20px;
+        width: 240px;
+        height: 35px;
+       
+    }
+    
+
+
+}
+  /* ...............................footer............................ */
+  .footer{
+    width: 100%;
+    height:360px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px; 
+}
+
+#box1{
+    width: 330px;
+    height: 358px;
+   
+}
+.wings1{
+    color: rgb(123, 121, 121) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.wings2{
+    color: rgb(123, 121, 121) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+.wings3{
+    color: rgb(123, 121, 121) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    margin-left: 2%;
+    margin-top: 7%;
+    word-spacing: 7px;
+    position: relative;
+    left: 10px;
+    width: 315px;
+}
+.fa-brands{
+    color: rgb(123, 121, 121) ;
+    font-size: 20px;
+    margin-top: 15%;
+    margin-left: 15%;
+
+
+}
+
+#box2{
+    width: 225px;
+    height: 358px;
+    background-color:black;
+   
+}
+.information{
+    color:white;
+    font-size: 23px;
+    font-family:monospace;
+    margin-left: 15%;
+    margin-top: 23%;
+}
+.list{
+    color: aliceblue;
+    list-style: none;
+    line-height: 30px;
+    margin-left: 35px;
+    margin-top: 25px;
+    color: rgb(123, 121, 121) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#box3{
+    width: 220px;
+    height: 358px;
+}
+.service{
+    color:white;
+    font-size: 23px;
+    font-family:monospace;
+    margin-left: 23%;
+    margin-top: 23%;
+}
+.list2{
+    color: rgb(123, 121, 121) ;
+    line-height: 30px;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#box4{
+    width: 220px;
+    height: 358px;
+}
+.categ{
+    color:white;
+    font-size: 23px;
+    font-family:monospace;
+    margin-left: 20%;
+    margin-top: 23%;
+}
+.list3{
+    color: rgb(123, 121, 121) ;
+    line-height: 30px;
+    list-style: none;
+    margin-left: 46px;
+    margin-top: 20px; 
+  
+}
+#box5{
+    width: 200px;
+    height: 330px;
+    position: relative;
+    left: 40px;
+    top: 15px;
+}
+.contactlast{
+    color:white;
+    font-size: 23px;
+    font-family:monospace;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+.address{
+    font-size: 17px;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(238, 243, 248, 0.79);
+}
+.paraaddress{
+    color: rgb(123, 121, 121) ;
+    word-spacing: 10px;
+    line-height: 25px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.mobile{
+    font-size: 15px;
+    margin-left: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(238, 243, 248, 0.79);
+}
+.no{
+    color: rgb(123, 121, 121) ;
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.email{
+    color: rgba(241, 242, 243, 0.79);
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 10%;
+    margin-top: -0.5px; 
+}
+/* .............................. media-query-footer.................... */
+
+@media(max-width :600px){
+
+    .footer{
+        width: 100%;
+        height:360px;
+        background-color:black;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        top: 130px;
+        
+        
+    }
+    #box1{
+        width: 250px;
+        height: 308px;
+        /* border: 1px solid rgb(249, 244, 244); */
+        position: relative;
+        top: 20px;
+        left: 20px;
+       
+    }
+    .wings1{
+        color: rgb(123, 121, 121) ;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 10px;
+        font-size: 30px;
+        position: relative;
+        top: 13px;
+        left:-15px;
+        width: 160px;
+        /* border: 1px solid red; */
+
+    }
+    .wings2{
+        color: rgb(123, 121, 121) ;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        /* border: 1px solid red; */
+        width: 240px;
+        height: 20px;
+        position: relative;
+        top: 27px;
+        left: -34px;
+    
+
+    }
+    .wings3{
+        color: rgb(123, 121, 121) ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:13px;
+        word-spacing: 7px;
+        position: relative;
+        top: 20px;
+        left: 0px;
+        width: 230px;
+        height: 90px;
+        /* border: 1px solid red; */
+    }
+    .fa-brands{
+        color: rgb(123, 121, 121) ;
+        font-size: 20px;
+        /* border: 1px solid red; */
+        position: relative;
+        top: -7px;
+       
+
+    
+    
+    }
+    
+    #box2{
+        width: 240px;
+        height: 358px;
+        background-color:rgb(8, 8, 8);
+        position: relative;
+        left: -290px;
+
+       
+    }
+    .information{
+        color:white;
+        font-size: 23px;
+        font-family:monospace;
+        margin-left: 15%;
+        margin-top: 23%;
+    }
+    .list{
+       
+        list-style: none;
+        line-height: 30px;
+        margin-left: 35px;
+        margin-top: 25px;
+        color: rgb(123, 121, 121) ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #box3{
+        width: 280px;
+        height: 350px;
+        position: relative;
+        /* border: 1px solid red; */
+     
+    }
+    .service{
+        color:black;
+        font-size: 23px;
+        font-weight: 600;
+        font-family:monospace;
+        position: relative;
+        top: -25px;
+        left: -35px;
+        width: 130px;
+
+        
+      
+    }
+    .list2{
+        color: rgb(123, 121, 121) ;
+        line-height: 30px;
+        list-style: none;
+        margin-left: 50px;
+        margin-top: 25px;
+        position: relative;
+        top: -30px;
+        left: -20px;
+      
+
+    }
+    
+    #box4{
+        width: 250px;
+        height: 350px;
+        position: relative;
+        left: -270px;
+        /* border: 1px solid red; */
+       
+       
+    }
+    .categ{
+        color:rgb(18, 18, 18);
+        font-size: 23px;
+        font: 600;
+        font-family:monospace;
+        position: relative;
+        left: -10px;
+        top: -20px;
+        width: 130px;
+
+        
+        
+    }
+    .list3{
+        color: rgb(123, 121, 121) ;
+        line-height: 30px;
+        list-style: none;
+        position: relative;
+        top: -25px;
+      
+    }
+    #box5{
+        width: 600px;
+        height: 370px;
+        position: relative;
+        left: 1px;
+        top: 0px;
+        background-color: black;
+    }
+    .contactlast{
+        color:white;
+        font-size: 20px;
+        font-family:monospace;
+        width: 130px;
+        position: relative;
+        top: -60px;
+
+    }
+    .address{
+        font-size: 17px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(238, 243, 248, 0.79);
+        position: relative;
+        top: -90px;
+    }
+    .paraaddress{
+        color: rgb(123, 121, 121) ;
+        word-spacing: 10px;
+        line-height: 25px;
+        position: relative;
+        top: -100px;
+
+      
+    }
+    .mobile{
+        font-size: 15px;
+        margin-left: 10%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(238, 243, 248, 0.79);
+        width: 130px;
+        position: relative;
+        top: -90px;
+    }
+    .no{
+        color: rgb(123, 121, 121) ;
+        font-size: 15px;
+        font-family: monospace;
+        position: relative;
+        top: -100px;
+        width: 130px;
+        
+    }
+    .email{
+        color: rgba(241, 242, 243, 0.79);
+        font-size: 15px;
+        font-family: monospace;
+        width: 180px;
+        position: relative;
+        top: -100px;
+      
+    }
+
+
+}
+/* ..................... */
+
+
+
